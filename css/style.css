@@ -12,6 +12,10 @@
  }
 
 /* Header */
+      /* <!-- Search and contact --> */
+header {
+  position: relative;
+}
 .background{
   background-color: #f4f9fd;
   height: 80px;
@@ -34,5 +38,35 @@
   font-weight: bolder;
 }
 .contact {
-  float: left;
+  position: absolute;
+  left: 0;
 }
+.search{
+  position: absolute;
+  right: 0;
+}
+.fa-search{
+  color: #00a4bd;
+}
+.login {
+  margin-top: 20px;
+  margin-left: 15px;
+  padding: 10px;
+  background-color: #fafcfe;
+  border: 1px solid #fe775a;
+  border-radius: 7px;
+  color: #fe775a;
+  font-size: 17px;
+}
+.generic {
+  margin-top: 20px;
+  margin-left: 15px;
+  padding: 10px;
+  background-color: #fe775a;
+  border: 1px solid #fe775a;
+  border-radius: 7px;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 400;
+}
+      /* <!-- Search and contact --> */
