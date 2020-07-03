@@ -121,3 +121,11 @@
   border-top: 5px solid #33475b;
   border-bottom:  5px solid #33475b;
 }
+/* Distaccamento */
+
+/* corpo della pagina */
+.container2 {
+  padding-top: 30px;
+  width: 60%;
+  margin: auto;
+}
