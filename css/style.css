@@ -124,8 +124,31 @@
 /* Distaccamento */
 
 /* corpo della pagina */
+.background-grey {
+  background-color: #f4f9fd;
+}
 .container2 {
-  padding-top: 30px;
+  padding-top: 80px;
   width: 60%;
   margin: auto;
+  padding-bottom: 40px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.container2 h2 {
+  padding-top: 20px;
+  font-size: 45px;
+  text-align: center;
+  padding-bottom: 30px;
+  color: #33475b;
+}
+.container2 p {
+  font-size: 17px;
+  color: #33475b;
+  text-align: center;
+  line-height: 1.6
 }
