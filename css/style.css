@@ -113,4 +113,11 @@
   margin-left: 0px;
   padding: 20px 40px;
 }
-/* testata di presentazione */ 
+/* testata di presentazione */
+/* Distaccamento */
+
+.green-space {
+  height: 100px;background-color: #afebe4;
+  border-top: 5px solid #33475b;
+  border-bottom:  5px solid #33475b;
+}
