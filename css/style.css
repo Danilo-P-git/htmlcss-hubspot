@@ -13,11 +13,11 @@
 
 /* Header */
       /* <!-- Search and contact --> */
-}
-.background{
+.background-blue{
   background-color: #f4f9fd;
   height: 80px;
   border-bottom: 1px solid black;
+  margin-bottom: 5px;
 }
 .container {
   width: 70%;
@@ -69,3 +69,35 @@
   font-weight: 400;
 }
       /* <!-- Search and contact --> */
+/* sottointestazione logo */
+.background-white{
+  height: 90px;
+  color: #fff;
+}
+#contlogo {
+  margin-top: 20px;
+  float: left;
+  width: 50%
+}
+.selection li {
+  margin-top: 30px;
+  padding: 14px;
+  display: inline-block;
+  font-size: 17px;
+  color:#32495b;
+}
+/* sottointestazione logo */
+
+/* testata di presentazione */
+
+
+.background-pink {
+  height: 400px;
+  background-image: url(../img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom right;
+
+}
+.image {
+}
