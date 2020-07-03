@@ -13,8 +13,6 @@
 
 /* Header */
       /* <!-- Search and contact --> */
-header {
-  position: relative;
 }
 .background{
   background-color: #f4f9fd;
@@ -38,12 +36,13 @@ header {
   font-weight: bolder;
 }
 .contact {
-  position: absolute;
-  left: 0;
+  float: left;
+  width: 50%;
 }
 .search{
-  position: absolute;
-  right: 0;
+  float: left;
+  width: 50%;
+  text-align: right;
 }
 .fa-search{
   color: #00a4bd;
