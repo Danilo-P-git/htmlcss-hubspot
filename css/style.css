@@ -92,10 +92,10 @@
 
 
 .background-pink {
-  height: 400px;
+  height: 800px;
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
   background-position: bottom right;
 
 }
