@@ -97,7 +97,20 @@
   background-repeat: no-repeat;
   background-size:cover;
   background-position: bottom right;
-
 }
-.image {
+.presentation {
+  width: 50%;
+  padding-top: 100px;
 }
+.presentation h1 {
+  font-size: 60px;
+}
+.presentation p {
+  padding-top: 30px;
+  line-height: 1.9;
+}
+.presentation .generic {
+  margin-left: 0px;
+  padding: 20px 40px;
+}
+/* testata di presentazione */ 
