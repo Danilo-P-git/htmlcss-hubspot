@@ -300,7 +300,7 @@
 
 .gradiente {
   background-image: linear-gradient(to right, #00a4bd , #00bda5);
-  height: 700px;
+  height: 800px;
 }
 
 .stat  h2 {
@@ -316,10 +316,10 @@
   font-size: 20px;
   padding-bottom: 30px;
 }
-.colone p {
-  font-size: 30px;
+.colonne p {
+  font-size: 40px;
 }
-.colone small {
+.colonne small {
   font-size: 15px;
 }
 .col1 {
@@ -383,4 +383,22 @@
   width: 100%;
   text-align: center;
   padding-bottom:30px;
+}
+/* gradiente */
+
+
+.number{
+  float: left;
+  padding-top: 50px;
+  width: 30%;
+  margin: auto;
+  padding-left: 150px;
+}
+.number h2 {
+  font-size: 50px;
+  padding-bottom: 30px;
+}
+.number p{
+  font-size: 17px;
+  line-height: 1.7;
 }
