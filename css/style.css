@@ -126,6 +126,7 @@
 /* corpo della pagina */
 .background-grey {
   background-color: #f4f9fd;
+  padding-bottom: 200px;
 }
 .container2 {
   padding-top: 80px;
@@ -280,4 +281,106 @@
   color: #fe775a;
   padding-left: 40px;
   padding-right: 20px;
+}
+
+.center img {
+  width:260px;
+}
+
+.right img {
+  width: 180px;
+}
+.box .generic {
+  padding: 10px 30px;
+}
+
+/* Widget */
+
+/* gradiiente */
+
+.gradiente {
+  background-image: linear-gradient(to right, #00a4bd , #00bda5);
+  height: 700px;
+}
+
+.stat  h2 {
+  padding-top: 50px;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+.stat p {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+.colone p {
+  font-size: 30px;
+}
+.colone small {
+  font-size: 15px;
+}
+.col1 {
+  float: left;
+
+  width: 24%;
+  border-right: 1px solid white;
+}
+
+.col2 {
+  float: left;
+  border-right: 1px solid white;
+  width: 24%;
+}
+.col3 {
+  float: left;
+
+  width: 24%;
+  border-right: 1px solid white;
+}
+.col4 {
+  float: left;
+
+  width: 24%;
+}
+.col5 {
+  float: left;
+
+  width: 24%;
+  border-right: 1px solid white;
+  border-top: 1px solid white;
+  padding-top: 10px;
+}
+.col6 {
+  float: left;
+
+  width: 24%;
+  border-right: 1px solid white;
+  border-top: 1px solid white;
+  padding-top: 10px;
+}
+.col7 {
+  float: left;
+
+  width: 24%;
+  border-right: 1px solid white;
+  border-top: 1px solid white;
+  padding-top: 10px;
+}
+.col8 {
+  float: left;
+
+  width: 24%;
+  border-top: 1px solid white;
+  padding-top: 10px;
+
+}
+.fa-handshake {
+  color: white;
+  font-size: 40px;
+  width: 100%;
+  text-align: center;
+  padding-bottom:30px;
 }
