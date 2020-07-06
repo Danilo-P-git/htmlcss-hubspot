@@ -4,7 +4,9 @@
  padding: 0;
  font-family: 'Roboto', sans-serif;
  }
-
+body {
+  position: relative;
+}
 .clearfix::after {
  content: "";
  display: table;
@@ -14,6 +16,8 @@
 /* Header */
       /* <!-- Search and contact --> */
 .background-blue{
+  /* position: fixed; */
+  /* width: 100%; */
   background-color: #f4f9fd;
   height: 80px;
   border-bottom: 1px solid black;
@@ -22,6 +26,9 @@
 .container {
   width: 70%;
   margin: auto;
+}
+.top {
+
 }
 .top li {
   display: inline-block;
@@ -513,4 +520,22 @@ padding-top: 30px;
 }
 .pryvc p:last-child {
   padding-left: 30px;
+}
+/* footer */
+
+/* popup */
+
+.popup {
+  color: white;
+  position: fixed;
+  display: block;
+  bottom: 0;
+  right: 0;
+  font-size: 40px;
+  background-color:#425b76;
+  padding: 10px;
+  border: 1px solid #425b76;
+  border-radius: 100%;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
