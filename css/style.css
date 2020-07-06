@@ -455,14 +455,62 @@ float: left;
 
 footer {
   background-color: #32495b;
-  height: 400px;
+  height: 650px;
   width: 100%;
 }
 
-.colonne {
+.colonne2 {
   color: white;
   width: 25%;
   float: left;
   line-height: 2.3;
 padding-top: 30px;
+}
+.colonne2 .generic {
+  margin: 0;
+  margin-top: 20px;
+  color: #32495b ;
+  background-color: #dadee0;
+  border-color: #32495b;
+}
+.colonne2 .fab {
+  margin-left: 20px;
+}
+.lingue {
+  color: white;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+.lingue p {
+  display: inline-block;
+  padding-top: 100px;
+  padding-left: 25px;
+}
+.container hr {
+  color: white;
+}
+.cpyr {
+  float: left;
+  color: white;
+  width: 50%
+}
+.cpyr img {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.pryvc {
+  width: 50%;
+  float: left;
+  text-align: right;
+}
+.pryvc p {
+  display: inline-block;
+  color: white;
+  padding-top: 50px;
+  font-size: 18px;
+
+}
+.pryvc p:last-child {
+  padding-left: 30px;
 }
