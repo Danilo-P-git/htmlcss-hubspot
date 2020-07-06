@@ -393,7 +393,7 @@
 }
 /* gradiente */
 
-
+/* mainover */
 .number{
   float: left;
   width: 30%;
@@ -403,8 +403,66 @@
 .number h2 {
   font-size: 50px;
   padding-bottom: 30px;
+  color: #33475b;
 }
 .number p{
   font-size: 17px;
   line-height: 1.7;
+  color: #33475b;
+
+}
+.adv {
+  padding-left: 300px;
+  width: 70%;
+  margin: auto;
+}
+.adv .logo-adv img {
+float: left;
+  width: 150px;
+  padding-left: 20px;
+  margin-top: 20px;
+
+}
+.last-button {
+  float: left;
+  width: 40%;
+  margin: auto;
+  padding-top: 60px;
+}
+.last-button h2 {
+  font-size: 40px;
+  color: #33475b;
+  padding-bottom: 20px;
+}
+.last-button p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #33475b;
+
+}
+.last-button .generic {
+  padding: 15px 20px;
+  margin-bottom: 30px;
+}
+.lady img {
+  width: 400px;
+  height: 500px;
+  margin-left: 300px;
+  margin-bottom: 100px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #32495b;
+  height: 400px;
+  width: 100%;
+}
+
+.colonne {
+  color: white;
+  width: 25%;
+  float: left;
+  line-height: 2.3;
+padding-top: 30px;
 }
