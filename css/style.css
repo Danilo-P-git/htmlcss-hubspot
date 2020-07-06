@@ -301,6 +301,7 @@
 .gradiente {
   background-image: linear-gradient(to right, #00a4bd , #00bda5);
   height: 800px;
+  margin-bottom: 100px;
 }
 
 .stat  h2 {
@@ -316,15 +317,16 @@
   font-size: 20px;
   padding-bottom: 30px;
 }
-.colonne p {
-  font-size: 40px;
+.colonne .col-stat {
+  font-size: 60px;
+  font-weight: bolder;
 }
 .colonne small {
   font-size: 15px;
 }
 .col1 {
   float: left;
-
+  height: 200px;
   width: 24%;
   border-right: 1px solid white;
 }
@@ -332,22 +334,23 @@
 .col2 {
   float: left;
   border-right: 1px solid white;
+  height: 200px;
   width: 24%;
 }
 .col3 {
   float: left;
-
+  height: 200px;
   width: 24%;
   border-right: 1px solid white;
 }
 .col4 {
   float: left;
-
+  height: 200px;
   width: 24%;
 }
 .col5 {
   float: left;
-
+  height: 200px;
   width: 24%;
   border-right: 1px solid white;
   border-top: 1px solid white;
@@ -355,7 +358,7 @@
 }
 .col6 {
   float: left;
-
+  height: 200px;
   width: 24%;
   border-right: 1px solid white;
   border-top: 1px solid white;
@@ -363,7 +366,7 @@
 }
 .col7 {
   float: left;
-
+  height: 200px;
   width: 24%;
   border-right: 1px solid white;
   border-top: 1px solid white;
@@ -371,25 +374,28 @@
 }
 .col8 {
   float: left;
-
+  height: 200px;
   width: 24%;
   border-top: 1px solid white;
   padding-top: 10px;
 
 }
-.fa-handshake {
-  color: white;
-  font-size: 40px;
+.stat img {
+  height: 30px;
   width: 100%;
-  text-align: center;
-  padding-bottom:30px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.col5 img {
+  width: 50%;
+  margin-left: 70px;
+
 }
 /* gradiente */
 
 
 .number{
   float: left;
-  padding-top: 50px;
   width: 30%;
   margin: auto;
   padding-left: 150px;
