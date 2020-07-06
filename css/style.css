@@ -544,7 +544,7 @@ padding-top: 30px;
   right: 1%;
   background-color: white;
   display: block;
-  width: 200px;
+  width: 225px;
   height: 100px;
   background-color: White;
   border: 1px solid white;
@@ -557,8 +557,8 @@ padding-top: 30px;
 }
 .popoption {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 5px;
+  right: 5px;
   color: black;
   cursor: pointer;
 }
