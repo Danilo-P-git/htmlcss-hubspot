@@ -363,61 +363,21 @@ body {
 .colonne small {
   font-size: 15px;
 }
-.col1 {
+.col {
   float: left;
   height: 200px;
   width: 24%;
   border-right: 1px solid white;
 }
-
-.col2 {
-  float: left;
-  border-right: 1px solid white;
-  height: 200px;
-  width: 24%;
-}
-.col3 {
-  float: left;
-  height: 200px;
-  width: 24%;
-  border-right: 1px solid white;
-}
-.col4 {
-  float: left;
-  height: 200px;
-  width: 24%;
-}
-.col5 {
-  float: left;
-  height: 200px;
-  width: 24%;
-  border-right: 1px solid white;
-  border-top: 1px solid white;
+.col:nth-child(n+5):nth-child(-n+8){
   padding-top: 10px;
-}
-.col6 {
-  float: left;
-  height: 200px;
-  width: 24%;
-  border-right: 1px solid white;
   border-top: 1px solid white;
-  padding-top: 10px;
 }
-.col7 {
-  float: left;
-  height: 200px;
-  width: 24%;
-  border-right: 1px solid white;
-  border-top: 1px solid white;
-  padding-top: 10px;
+.col:nth-child(4) {
+  border-right: none;
 }
-.col8 {
-  float: left;
-  height: 200px;
-  width: 24%;
-  border-top: 1px solid white;
-  padding-top: 10px;
-
+.col:nth-child(8) {
+  border-right: none;
 }
 .stat img {
   height: 30px;
@@ -510,7 +470,7 @@ footer {
   width: 25%;
   float: left;
   line-height: 2.3;
-padding-top: 30px;
+  padding-top: 30px;
 }
 .colonne2 .generic {
   margin: 0;
@@ -519,19 +479,26 @@ padding-top: 30px;
   background-color: #dadee0;
   border-color: #32495b;
 }
+.colonne2 li {
+  list-style: none;
+}
+.social {
+  display: inline-block;
+}
 .colonne2 .fab {
   margin-left: 20px;
+}
+.lingue li{
+  list-style: none;
+  display: inline-block;
+  padding-top: 100px;
+  padding-left: 25px;
 }
 .lingue {
   color: white;
   width: 50%;
   margin: auto;
   padding-bottom: 20px;
-}
-.lingue p {
-  display: inline-block;
-  padding-top: 100px;
-  padding-left: 25px;
 }
 .container hr {
   color: white;
@@ -550,11 +517,12 @@ padding-top: 30px;
   float: left;
   text-align: right;
 }
-.pryvc p {
+.pryvc li {
   display: inline-block;
   color: white;
   padding-top: 50px;
   font-size: 18px;
+  padding-right: 10px;
 
 }
 .pryvc p:last-child {
