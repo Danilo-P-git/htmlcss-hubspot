@@ -252,6 +252,7 @@ body {
   color: #33475b;
 }
 .crm .fa-check-circle {
+  padding-right: 10px;
   color: #fe775a;
 }
 /* Widget */
